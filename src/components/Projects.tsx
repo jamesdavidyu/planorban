@@ -11,7 +11,7 @@ export const Projects = ({ darkMode }: ProjectsProps) => {
     <div className="flex flex-col items-center space-y-4">
       <div className="flex flex-col 2xl:flex-row gap-x-4 space-y-4 2xl:space-y-0">
         <Card
-          className={`w-[475px] 2xl:w-[525px] ${
+          className={`w-full sm:w-[475px] 2xl:w-[525px] ${
             darkMode ? "bg-black text-white" : ""
           }`}
         >
@@ -27,7 +27,7 @@ export const Projects = ({ darkMode }: ProjectsProps) => {
           </div>
         </Card>
         <Card
-          className={`w-[475px] 2xl:w-[525px] ${
+          className={`w-full sm:w-[475px] 2xl:w-[525px] ${
             darkMode ? "bg-black text-white" : ""
           }`}
         >
@@ -45,7 +45,7 @@ export const Projects = ({ darkMode }: ProjectsProps) => {
       </div>
       <div className="flex flex-col items-center 2xl:flex-row gap-x-4 space-y-4 2xl:space-y-0">
         <Card
-          className={`w-[475px] 2xl:w-[525px] ${
+          className={`w-full sm:w-[475px] 2xl:w-[525px] ${
             darkMode ? "bg-black text-white" : ""
           }`}
         >
@@ -100,7 +100,7 @@ export const Projects = ({ darkMode }: ProjectsProps) => {
           </div>
         </Card>
         <Card
-          className={`w-[475px] 2xl:w-[525px] ${
+          className={`w-full sm:w-[475px] 2xl:w-[525px] ${
             darkMode ? "bg-black text-white" : ""
           }`}
         >

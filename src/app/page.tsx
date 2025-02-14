@@ -28,7 +28,7 @@ export default function Home() {
     >
       <header
         className={`grid grid-cols-3 p-8 border-b z-10 fixed w-full ${
-          darkMode ? "bg-black" : ""
+          darkMode ? "bg-black" : "bg-white"
         }`}
       >
         <div>
@@ -45,7 +45,7 @@ export default function Home() {
             </Avatar>
           </a>
         </div>
-        <div className="flex flex-col 2xl:flex-row justify-center items-center gap-x-2">
+        <div className="flex flex-col 2xl:flex-row space-y-2 2xl:space-y-0 justify-center items-center gap-x-2">
           <HoverCard>
             <HoverCardTrigger
               href="https://github.com/jamesdavidyu/"
