@@ -7,9 +7,9 @@ interface ProjectsProps {
 export const Projects = ({ darkMode }: ProjectsProps) => {
   return (
     <div className="flex flex-col space-y-4">
-      <div className="flex gap-x-4">
+      <div className="flex flex-col 2xl:flex-row gap-x-4 space-y-4 2xl:space-y-0">
         <Card className={`${darkMode ? "bg-black text-white" : ""}`}>
-          <a href="https://jamesandhanna.vercel.app" target="_blank">
+          <a href="https://syraviews.com" target="_blank">
             <img
               src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLFmBpIIul6K25DGPkXTZn7jetRmC0bSOw1Bxf"
               className="h-72 rounded-t-xl"
