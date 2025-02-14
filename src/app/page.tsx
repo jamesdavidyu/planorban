@@ -27,14 +27,14 @@ export default function Home() {
       }`}
     >
       <header
-        className={`grid grid-cols-3 p-8 border-b z-10 fixed w-full ${
-          darkMode ? "bg-black" : "bg-white"
+        className={`grid grid-cols-3 p-8 border-b border-neutral-700 z-10 fixed w-full ${
+          darkMode ? "bg-neutral-900" : "bg-white"
         }`}
       >
         <div>
           <a
             href="https://www.planorban.com"
-            className="flex w-fit -mt-2"
+            className="flex w-fit -mt-1"
             title="Planorban"
           >
             <Avatar>
@@ -254,7 +254,11 @@ export default function Home() {
           </a>
           <Projects darkMode={darkMode} />
         </main>
-        <footer className="flex justify-center 2xl:justify-end w-full border-t p-4 mt-8">
+        <footer
+          className={`flex justify-center 2xl:justify-end w-full border-t border-neutral-700 p-4 mt-8 ${
+            darkMode ? "bg-neutral-900" : "bg-white"
+          }`}
+        >
           <div className="flex items-center gap-x-2">
             <a
               href="https://github.com/jamesdavidyu/planorban"

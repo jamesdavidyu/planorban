@@ -12,13 +12,13 @@ export const Projects = ({ darkMode }: ProjectsProps) => {
       <div className="flex flex-col 2xl:flex-row gap-x-4 space-y-4 2xl:space-y-0">
         <Card
           className={`w-full sm:w-[475px] 2xl:w-[525px] ${
-            darkMode ? "bg-black text-white" : ""
+            darkMode ? "bg-neutral-900 text-white" : ""
           }`}
         >
           <a href="https://syraviews.com" target="_blank">
             <img
               src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLFmBpIIul6K25DGPkXTZn7jetRmC0bSOw1Bxf"
-              className="h-72 rounded-t-xl border-b"
+              className="h-72 rounded-t-xl border-b border-neutral-700"
             />
           </a>
           <div className="flex flex-col p-4">
@@ -28,13 +28,13 @@ export const Projects = ({ darkMode }: ProjectsProps) => {
         </Card>
         <Card
           className={`w-full sm:w-[475px] 2xl:w-[525px] ${
-            darkMode ? "bg-black text-white" : ""
+            darkMode ? "bg-neutral-900 text-white" : ""
           }`}
         >
           <a href="https://syraqs.com" target="_blank">
             <img
               src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLnLmDusdqectlQXLhk6oKRjmaTi8nwNMzuGYf"
-              className="h-72 rounded-t-xl border-b"
+              className="h-72 rounded-t-xl border-b border-neutral-700"
             />
           </a>
           <div className="flex flex-col p-4">
@@ -46,13 +46,13 @@ export const Projects = ({ darkMode }: ProjectsProps) => {
       <div className="flex flex-col items-center 2xl:flex-row gap-x-4 space-y-4 2xl:space-y-0">
         <Card
           className={`w-full sm:w-[475px] 2xl:w-[525px] ${
-            darkMode ? "bg-black text-white" : ""
+            darkMode ? "bg-neutral-900 text-white" : ""
           }`}
         >
           <a href="https://youyoungjune.com" target="_blank">
             <img
               src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLWwroDiBjUVQNz20JR5M8ohxsYgOb7amnLw1B"
-              className="h-72 rounded-t-xl border-b"
+              className="h-72 rounded-t-xl border-b border-neutral-700"
             />
           </a>
           <div className="flex flex-col p-4">
@@ -101,7 +101,7 @@ export const Projects = ({ darkMode }: ProjectsProps) => {
         </Card>
         <Card
           className={`w-full sm:w-[475px] 2xl:w-[525px] ${
-            darkMode ? "bg-black text-white" : ""
+            darkMode ? "bg-neutral-900 text-white" : ""
           }`}
         >
           <a href="https://github.com/jamesdavidyu" target="_blank">
@@ -111,7 +111,7 @@ export const Projects = ({ darkMode }: ProjectsProps) => {
                   ? "https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiL5MnRTn8fLieHIWtKpZ0mgDCXwsE51NrnTlS4"
                   : "https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLz9T58VEwfIZTOd5vKqxuLcyDSkljEV8JNaXH"
               }
-              className="h-72 rounded-t-xl border-b"
+              className="h-72 rounded-t-xl border-b border-neutral-700"
             />
           </a>
           <div className="flex flex-col p-4">
