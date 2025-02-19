@@ -33,7 +33,8 @@ export default function Home() {
       >
         <div>
           <a
-            href="https://www.planorban.com"
+            href="https://github.com/jamesdavidyu"
+            target="_blank"
             className="flex w-fit -mt-1"
             title="Planorban"
           >
@@ -99,6 +100,12 @@ export default function Home() {
                   }`}
                 >
                   <img
+                    src="https://utfs.io/f/18697db9-42df-4a31-b981-ababe7b32bb7-1xrfm.png"
+                    className="-mx-1 size-10"
+                    title="Java"
+                    alt="Java"
+                  />
+                  <img
                     src="https://utfs.io/f/f5d9dfd5-a566-46ae-83f0-8094a153a1a4-g3ezok.png"
                     className="size-10"
                     title="Python"
@@ -115,12 +122,6 @@ export default function Home() {
                     className="size-10"
                     title="Typescript"
                     alt="Typescript"
-                  />
-                  <img
-                    src="https://utfs.io/f/18697db9-42df-4a31-b981-ababe7b32bb7-1xrfm.png"
-                    className="-mx-1 size-10"
-                    title="Java"
-                    alt="Java"
                   />
                 </MenubarContent>
               </MenubarMenu>
@@ -163,6 +164,12 @@ export default function Home() {
                   }`}
                 >
                   <img
+                    src="https://m2my1rq4tt.ufs.sh/f/c89ce08c-0926-4b1f-bbc7-2e4306bab049-mj0jnj.png"
+                    className="-mr-2 -ml-3 w-12"
+                    title="Spring Boot"
+                    alt="Spring Boot"
+                  />
+                  <img
                     src="https://m2my1rq4tt.ufs.sh/f/6cec46fa-d49f-480f-b875-964225c3792d-20eer.png"
                     className={`size-10 ${darkMode ? "" : "invert"}`}
                     title="Next.js"
@@ -176,15 +183,9 @@ export default function Home() {
                   />
                   <img
                     src="https://m2my1rq4tt.ufs.sh/f/e1c5d774-9034-4d27-bac4-83609a2c0cf7-m0jdt1.png"
-                    className="size-10"
+                    className="-ml-2 -mr-3 size-10"
                     title="Django"
                     alt="Django"
-                  />
-                  <img
-                    src="https://m2my1rq4tt.ufs.sh/f/c89ce08c-0926-4b1f-bbc7-2e4306bab049-mj0jnj.png"
-                    className="-mx-2 w-12"
-                    title="Spring Boot"
-                    alt="Spring Boot"
                   />
                 </MenubarContent>
               </MenubarMenu>
@@ -197,6 +198,12 @@ export default function Home() {
                     darkMode ? "bg-black text-white" : ""
                   }`}
                 >
+                  <img
+                    src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLLiqWqoY7EmPedUXZIz23wynVoYKMqrhuk5Fa"
+                    className={`size-10 ${darkMode ? "invert" : ""}`}
+                    title="Koyeb"
+                    alt="Koyeb"
+                  />
                   <img
                     src="https://m2my1rq4tt.ufs.sh/f/b590f013-c0b2-4166-8aef-f9430a4ca4fd-dk6j3t.png"
                     className={`w-20 -mx-6 ${darkMode ? "" : "invert"}`}
