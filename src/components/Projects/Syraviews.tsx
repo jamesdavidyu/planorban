@@ -32,10 +32,10 @@ export const Syraviews = ({ darkMode }: SyraviewsProps) => {
             </a>
           </Button>
           <div className="mt-3">
-            A small app to invite friends and collect RSVPs for my wife&apos;s
-            and my soon-to-be son&apos;s gender reveal party, written in Golang
-            &#40;mux&#41; and Typescript &#40;Next.js&#41; with PostgreSQL and
-            JWT authentication. Deployed via Vercel and Fly.io.
+            A small app to invite friends and collect RSVPs for my soon-to-be
+            son&apos;s gender reveal party, written in Golang &#40;mux&#41; and
+            Typescript &#40;Next.js&#41; with PostgreSQL and JWT authentication.
+            Deployed via Vercel and Fly.io.
           </div>
           <div className="flex justify-between 2xl:mt-3">
             <div className="flex items-center gap-x-2">
