@@ -5,6 +5,12 @@ import { Contact } from "@/components/Contact";
 import { Projects } from "@/components/Projects";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import {
+  Dialog,
+  DialogContent,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
@@ -270,29 +276,22 @@ export default function Home() {
               <a
                 href="https://github.com/jamesdavidyu"
                 target="_blank"
-                className="font-bold underline hover:no-underline text-xl"
+                className="font-semibold underline hover:no-underline text-xl"
                 title="GitHub"
               >
-                Projects
+                Here are some projects I&apos;ve worked on:
               </a>
               <Projects darkMode={darkMode} />
             </>
           )}
         </main>
         <footer
-          className={`flex justify-center 2xl:justify-end w-full border-t border-neutral-700 p-4 mt-8 ${
+          className={`flex justify-center 2xl:justify-between items-center w-full border-t border-neutral-700 p-4 mt-8 ${
             darkMode ? "bg-neutral-900" : "bg-white"
           }`}
         >
-          <div className="flex items-center gap-x-2">
-            <a
-              href="https://github.com/jamesdavidyu/planorban"
-              target="_blank"
-              className="hover:cursor-pointer hover:underline"
-            >
-              Check out the code for this site on GitHub.
-            </a>
-            <Avatar>
+          <div className="hidden 2xl:flex items-center gap-x-2 w-fit">
+            <Avatar className="w-fit">
               <a
                 href="https://github.com/jamesdavidyu/planorban"
                 target="_blank"
@@ -304,6 +303,49 @@ export default function Home() {
                 />
               </a>
             </Avatar>
+            <a
+              href="https://github.com/jamesdavidyu/planorban"
+              target="_blank"
+              className="hover:cursor-pointer hover:underline w-fit"
+            >
+              Check out the code for this site on GitHub
+            </a>
+          </div>
+          <div className="flex items-center">
+            <p>
+              See my{" "}
+              <span
+                onClick={() => setBio(!bio)}
+                className="hover:cursor-pointer hover:underline"
+              >
+                resume and cover letter
+              </span>
+              .&nbsp;
+              <Dialog>
+                <DialogTrigger className="hover:cursor-pointer hover:underline">
+                  Let&apos;s Connect!
+                </DialogTrigger>
+                <DialogContent
+                  className={`w-fit ${darkMode ? "bg-black text-white" : ""}`}
+                >
+                  <DialogTitle>Contact</DialogTitle>
+                  <Contact bio={bio} setBio={setBio} />
+                </DialogContent>
+              </Dialog>
+              {/* &nbsp;at&nbsp;
+              <a
+                href="mailto:jamesdavidyu@gmail.com"
+                className="hover:underline hover:cursor-pointer"
+              >
+                jamesdavidyu@gmail.com
+              </a> */}
+            </p>
+            <p
+              className="text-3xl hover:cursor-pointer"
+              onClick={() => setBio(!bio)}
+            >
+              &nbsp;&#128209;
+            </p>
           </div>
         </footer>
       </div>

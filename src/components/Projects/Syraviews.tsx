@@ -37,7 +37,7 @@ export const Syraviews = ({ darkMode }: SyraviewsProps) => {
             &#40;mux&#41; and Typescript &#40;Next.js&#41; with PostgreSQL and
             JWT authentication. Deployed via Vercel and Fly.io.
           </div>
-          <div className="flex justify-between mt-3">
+          <div className="flex justify-between 2xl:mt-3">
             <div className="flex items-center gap-x-2">
               <Avatar>
                 <a

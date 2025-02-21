@@ -2,9 +2,10 @@ interface ContactProps {
   bio: boolean;
   setBio: (bio: boolean) => void;
 }
+
 export const Contact = ({ bio, setBio }: ContactProps) => {
   return (
-    <>
+    <div className="flex gap-x-3 items-center justify-center">
       <p
         className="text-4xl hover:cursor-pointer"
         title="Resume and cover letter"
@@ -37,6 +38,6 @@ export const Contact = ({ bio, setBio }: ContactProps) => {
       >
         &#128231;
       </a>
-    </>
+    </div>
   );
 };

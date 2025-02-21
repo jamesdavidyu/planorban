@@ -39,7 +39,7 @@ export const Ed = ({ darkMode }: EdProps) => {
             JWT authentication, an API to exchange data for a lesson
             planning/teaching/analytics app. Deployed via Koyeb.
           </div>
-          <div className="flex justify-center mt-4">
+          <div className="flex justify-center 2xl:mt-4">
             <Avatar>
               <a href="https://github.com/jamesdavidyu/ed-api" target="_blank">
                 <AvatarImage
