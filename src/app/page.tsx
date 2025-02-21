@@ -36,12 +36,13 @@ export default function Home() {
             href="https://github.com/jamesdavidyu"
             target="_blank"
             className="flex w-fit -mt-1"
-            title="Planorban"
+            title="GitHub"
           >
             <Avatar>
               <AvatarImage
                 src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLSgxEf8i4ZGeSIWMpQRy6gK7A5vNl0HaJDrVx"
                 className={`${darkMode ? "invert" : ""}`}
+                alt="Planorban logo"
               />
             </Avatar>
           </a>
@@ -56,6 +57,7 @@ export default function Home() {
               <img
                 src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLUnvc5KtjuCHJXMhVGktnDBzvxQi2bIE5ofer"
                 className="rounded-full h-28"
+                alt="Headshot"
               />
             </HoverCardTrigger>
             <HoverCardContent
@@ -165,7 +167,7 @@ export default function Home() {
                 >
                   <img
                     src="https://m2my1rq4tt.ufs.sh/f/c89ce08c-0926-4b1f-bbc7-2e4306bab049-mj0jnj.png"
-                    className="-mr-2 -ml-3 w-12"
+                    className="-mr-2 -ml-4 w-12"
                     title="Spring Boot"
                     alt="Spring Boot"
                   />
@@ -209,6 +211,12 @@ export default function Home() {
                     className={`w-20 -mx-6 ${darkMode ? "" : "invert"}`}
                     title="Vercel"
                     alt="Vercel"
+                  />
+                  <img
+                    src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLeZ6LqhyfFMSdZJQO8unA4H9iI1Vaz3WXPmUx"
+                    className="size-10"
+                    title="Supabase"
+                    alt="Supabase"
                   />
                   <img
                     src="https://m2my1rq4tt.ufs.sh/f/72df50f8-3c93-4a65-8b7e-11f6c3e09312-26b7.svg"
@@ -278,8 +286,12 @@ export default function Home() {
               <a
                 href="https://github.com/jamesdavidyu/planorban"
                 target="_blank"
+                title="GitHub"
               >
-                <AvatarImage src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png" />
+                <AvatarImage
+                  src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png"
+                  alt="GitHub"
+                />
               </a>
             </Avatar>
           </div>

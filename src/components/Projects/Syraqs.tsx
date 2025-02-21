@@ -1,3 +1,4 @@
+import { Avatar, AvatarImage } from "../ui/avatar";
 import { Button } from "../ui/button";
 import { Card } from "../ui/card";
 
@@ -9,19 +10,80 @@ export const Syraqs = ({ darkMode }: SyraqsProps) => {
   return (
     <>
       <Card
-        className={`w-full sm:w-[475px] 2xl:w-[525px] ${
+        className={`w-full sm:w-[475px] 2xl:w-[525px] h-[529px] ${
           darkMode ? "bg-neutral-900 text-white" : ""
         }`}
       >
-        <a href="https://syraqs.com" target="_blank">
+        <a
+          href="https://syraqs.com"
+          target="_blank"
+          className="flex justify-center"
+        >
           <img
-            src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLnLmDusdqectlQXLhk6oKRjmaTi8nwNMzuGYf"
+            src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLbDoIYEe4opQX5SsU3IR8hdjw7CE6xVWYnfkT"
             className="h-72 rounded-t-xl border-b border-neutral-700"
+            alt="syraqs.com"
           />
         </a>
         <div className="flex flex-col p-4">
-          <Button>syraqs.com</Button>
-          <p className="mt-3"></p>
+          <Button>
+            <a href="https://syraqs.com" target="_blank">
+              syraqs.com
+            </a>
+          </Button>
+          <div className="mt-3">
+            <p className="italic text-green-600">
+              &#47;&#42;&nbsp;In Progress&nbsp;&#42;&#47;
+            </p>
+            A data entry and dashboarding app for clients, written in Python
+            &#40;Django, pandas, duckdb, streamlit&#41; and Typescript
+            &#40;Next.js&#41; with PostgreSQL and Google API&apos;s OAuth 2.0
+            authentication. Deployed via Vercel.
+          </div>
+          <div className="flex justify-between">
+            <div className="flex items-center gap-x-2">
+              <Avatar>
+                <a
+                  href="https://github.com/jamesdavidyu/yrm-data"
+                  target="_blank"
+                >
+                  <AvatarImage
+                    src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png"
+                    alt="GitHub"
+                  />
+                </a>
+              </Avatar>
+              <Button variant="destructive">
+                <a
+                  href="https://github.com/jamesdavidyu/yrm-data"
+                  target="_blank"
+                >
+                  Frontend Repo
+                </a>
+              </Button>
+            </div>
+            <div className="flex items-center gap-x-2">
+              <Button variant="secondary">
+                <a
+                  href="https://github.com/jamesdavidyu/yrm_api"
+                  target="_blank"
+                >
+                  Backend Repo
+                </a>
+              </Button>
+              <Avatar>
+                <a
+                  href="https://github.com/jamesdavidyu/yrm_api"
+                  target="_blank"
+                >
+                  <AvatarImage
+                    src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png"
+                    alt="GitHub"
+                  />
+                </a>
+              </Avatar>
+            </div>
+          </div>
         </div>
       </Card>
     </>

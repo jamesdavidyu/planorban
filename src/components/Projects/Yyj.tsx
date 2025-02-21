@@ -2,11 +2,11 @@ import { Avatar, AvatarImage } from "../ui/avatar";
 import { Button } from "../ui/button";
 import { Card } from "../ui/card";
 
-interface SyraviewsProps {
+interface YyjProps {
   darkMode: boolean;
 }
 
-export const Syraviews = ({ darkMode }: SyraviewsProps) => {
+export const Yyj = ({ darkMode }: YyjProps) => {
   return (
     <>
       <Card
@@ -15,35 +15,34 @@ export const Syraviews = ({ darkMode }: SyraviewsProps) => {
         }`}
       >
         <a
-          href="https://syraviews.com"
+          href="https://youyoungjune.com"
           target="_blank"
           className="flex justify-center"
         >
           <img
-            src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLXAV4lOc39AZVJ2mqlrWf3bT4DUeS7ukICx0a"
+            src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLdAHc7OXg8baGNqhYrtoDdVMz5mujWILy2lf6"
             className="h-72 rounded-t-xl border-b border-neutral-700"
-            alt="syraviews.com"
+            alt="youyoungjune.com"
           />
         </a>
         <div className="flex flex-col p-4">
           <Button>
-            <a href="https://syraviews.com" target="_blank">
-              syraviews.com
+            <a href="https://youyoungjune.com" target="_blank">
+              youyoungjune.com
             </a>
           </Button>
           <div className="mt-3">
-            A small app to invite friends and collect RSVPs for my wife&apos;s
-            and my soon-to-be son&apos;s gender reveal party, written in Golang
-            &#40;mux&#41; and Typescript &#40;Next.js&#41; with PostgreSQL and
-            JWT authentication. Deployed via Vercel and Fly.io.
+            <p className="italic text-green-600">
+              &#47;&#42;&nbsp;In Progress&nbsp;&#42;&#47;
+            </p>
+            My arts portfolio, written in Java &#40;Spring Boot&#41; and
+            Typescript &#40;Next.js&#41; with MongoDB &#40;Atlas&#41; and JWT
+            authentication. Deployed via Vercel and Koyeb.
           </div>
-          <div className="flex justify-between mt-3">
+          <div className="flex justify-between mt-6">
             <div className="flex items-center gap-x-2">
               <Avatar>
-                <a
-                  href="https://github.com/jamesdavidyu/gender_reveal_ui"
-                  target="_blank"
-                >
+                <a href="https://github.com/jamesdavidyu/yyj" target="_blank">
                   <AvatarImage
                     src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png"
                     alt="GitHub"
@@ -51,22 +50,25 @@ export const Syraviews = ({ darkMode }: SyraviewsProps) => {
                 </a>
               </Avatar>
               <Button variant="destructive">
-                <a
-                  href="https://github.com/jamesdavidyu/gender_reveal_ui"
-                  target="_blank"
-                >
+                <a href="https://github.com/jamesdavidyu/yyj" target="_blank">
                   Frontend Repo
                 </a>
               </Button>
             </div>
             <div className="flex items-center gap-x-2">
               <Button variant="secondary">
-                <a href="https://github.com/jamesdavidyu/grs" target="_blank">
+                <a
+                  href="https://github.com/jamesdavidyu/yyjApi_java"
+                  target="_blank"
+                >
                   Backend Repo
                 </a>
               </Button>
               <Avatar>
-                <a href="https://github.com/jamesdavidyu/grs" target="_blank">
+                <a
+                  href="https://github.com/jamesdavidyu/yyjApi_java"
+                  target="_blank"
+                >
                   <AvatarImage
                     src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png"
                     alt="GitHub"
