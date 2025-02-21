@@ -1,5 +1,6 @@
 "use client";
 
+import { Bio } from "@/components/Bio";
 import { Contact } from "@/components/Contact";
 import { Projects } from "@/components/Projects";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
@@ -19,6 +20,7 @@ import { useState } from "react";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
+  const [bio, setBio] = useState(false);
 
   return (
     <div
@@ -65,7 +67,7 @@ export default function Home() {
                 darkMode ? "bg-black" : ""
               }`}
             >
-              <Contact />
+              <Contact bio={bio} setBio={setBio} />
             </HoverCardContent>
           </HoverCard>
           <div className="flex flex-col items-center">
@@ -84,7 +86,7 @@ export default function Home() {
                     darkMode ? "bg-black" : ""
                   }`}
                 >
-                  <Contact />
+                  <Contact bio={bio} setBio={setBio} />
                 </HoverCardContent>
               </HoverCard>
             </div>
@@ -259,15 +261,23 @@ export default function Home() {
       </header>
       <div className="flex flex-col items-center overflow-y-scroll mt-64 2xl:mt-44 z-0">
         <main className="flex flex-col items-center space-y-4 pt-8 2xl:pt-4">
-          <a
-            href="https://github.com/jamesdavidyu"
-            target="_blank"
-            className="font-bold underline hover:no-underline text-xl"
-            title="GitHub"
-          >
-            Projects
-          </a>
-          <Projects darkMode={darkMode} />
+          {bio ? (
+            <>
+              <Bio bio={bio} setBio={setBio} />
+            </>
+          ) : (
+            <>
+              <a
+                href="https://github.com/jamesdavidyu"
+                target="_blank"
+                className="font-bold underline hover:no-underline text-xl"
+                title="GitHub"
+              >
+                Projects
+              </a>
+              <Projects darkMode={darkMode} />
+            </>
+          )}
         </main>
         <footer
           className={`flex justify-center 2xl:justify-end w-full border-t border-neutral-700 p-4 mt-8 ${

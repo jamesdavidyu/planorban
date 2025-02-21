@@ -1,6 +1,17 @@
-export const Contact = () => {
+interface ContactProps {
+  bio: boolean;
+  setBio: (bio: boolean) => void;
+}
+export const Contact = ({ bio, setBio }: ContactProps) => {
   return (
     <>
+      <p
+        className="text-4xl hover:cursor-pointer"
+        title="Resume and cover letter"
+        onClick={() => setBio(!bio)}
+      >
+        &#128209;
+      </p>
       <a href="https://github.com/jamesdavidyu" target="_blank" title="GitHub">
         <img
           src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png"
