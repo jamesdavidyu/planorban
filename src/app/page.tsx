@@ -60,7 +60,7 @@ export default function Home() {
             <HoverCardTrigger
               href="https://github.com/jamesdavidyu/"
               target="_blank"
-              className="hover:cursor-pointer"
+              className="hover:cursor-pointer hidden 2xl:block"
             >
               <img
                 src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLUnvc5KtjuCHJXMhVGktnDBzvxQi2bIE5ofer"
@@ -76,6 +76,21 @@ export default function Home() {
               <Contact bio={bio} setBio={setBio} />
             </HoverCardContent>
           </HoverCard>
+          <Dialog>
+            <DialogTrigger className="hover:cursor-pointer block 2xl:hidden">
+              <img
+                src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLUnvc5KtjuCHJXMhVGktnDBzvxQi2bIE5ofer"
+                className="rounded-full h-28"
+                alt="Headshot"
+              />
+            </DialogTrigger>
+            <DialogContent
+              className={`w-fit ${darkMode ? "bg-black text-white" : ""}`}
+            >
+              <DialogTitle>Contact</DialogTitle>
+              <Contact bio={bio} setBio={setBio} />
+            </DialogContent>
+          </Dialog>
           <div className="flex flex-col items-center">
             <div>
               Hello! My name is&nbsp;
@@ -83,7 +98,7 @@ export default function Home() {
                 <HoverCardTrigger
                   href="https://github.com/jamesdavidyu/"
                   target="_blank"
-                  className="underline hover:no-underline text-blue-600"
+                  className="underline hover:no-underline text-blue-600 hidden 2xl:inline"
                 >
                   James Yu.
                 </HoverCardTrigger>
@@ -95,6 +110,17 @@ export default function Home() {
                   <Contact bio={bio} setBio={setBio} />
                 </HoverCardContent>
               </HoverCard>
+              <Dialog>
+                <DialogTrigger className="hover:cursor-pointer inline 2xl:hidden underline hover:no-underline text-blue-600">
+                  James Yu.
+                </DialogTrigger>
+                <DialogContent
+                  className={`w-fit ${darkMode ? "bg-black text-white" : ""}`}
+                >
+                  <DialogTitle>Contact</DialogTitle>
+                  <Contact bio={bio} setBio={setBio} />
+                </DialogContent>
+              </Dialog>
             </div>
             <p>I am a full stack developer skilled in:</p>
             <Menubar
@@ -266,7 +292,7 @@ export default function Home() {
         </div>
       </header>
       <div className="flex flex-col items-center overflow-y-scroll mt-64 2xl:mt-44 z-0">
-        <main className="flex flex-col items-center space-y-4 pt-8 2xl:pt-4">
+        <main className="flex flex-col items-center space-y-4 pt-10 2xl:pt-4">
           {bio ? (
             <>
               <Bio bio={bio} setBio={setBio} />
@@ -313,14 +339,20 @@ export default function Home() {
           </div>
           <div className="flex items-center">
             <p>
-              See my{" "}
-              <span
-                onClick={() => setBio(!bio)}
-                className="hover:cursor-pointer hover:underline"
-              >
-                resume and cover letter
+              <span>
+                {bio ? null : (
+                  <>
+                    See my{" "}
+                    <span
+                      onClick={() => setBio(!bio)}
+                      className="hover:cursor-pointer hover:underline"
+                    >
+                      resume and cover letter
+                    </span>
+                    .&nbsp;
+                  </>
+                )}
               </span>
-              .&nbsp;
               <Dialog>
                 <DialogTrigger className="hover:cursor-pointer hover:underline">
                   Let&apos;s Connect!
