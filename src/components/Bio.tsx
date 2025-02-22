@@ -18,7 +18,7 @@ export const Bio = ({ bio, setBio }: BioProps) => {
       <div className="flex flex-col 2xl:flex-row justify-center pt-2 gap-x-8 space-y-6 2xl:space-y-0">
         <iframe
           src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLbcCPp3e4opQX5SsU3IR8hdjw7CE6xVWYnfkT"
-          className="h-[925px] xl:w-[700px]"
+          className="h-[700px] xl:h-[925px] xl:w-[700px]"
         ></iframe>
         <div className="xl:w-[700px] px-8 2xl:p-0">
           <p>Dear Recruiter,</p>
