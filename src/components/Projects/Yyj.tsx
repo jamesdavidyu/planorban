@@ -10,7 +10,7 @@ export const Yyj = ({ darkMode }: YyjProps) => {
   return (
     <>
       <Card
-        className={`w-full sm:w-[475px] 2xl:w-[525px] h-[529px] ${
+        className={`w-full sm:w-[475px] 2xl:w-[525px] 2xl:h-[529px] ${
           darkMode ? "bg-neutral-900 text-white" : ""
         }`}
       >
@@ -39,7 +39,7 @@ export const Yyj = ({ darkMode }: YyjProps) => {
             Typescript &#40;Next.js&#41; with MongoDB &#40;Atlas&#41; and JWT
             authentication. Deployed via Vercel and Koyeb.
           </div>
-          <div className="flex justify-between 2xl:mt-6">
+          <div className="flex justify-between mt-2 2xl:mt-7">
             <div className="flex items-center gap-x-2">
               <Avatar>
                 <a href="https://github.com/jamesdavidyu/yyj" target="_blank">

@@ -10,7 +10,7 @@ export const Syraviews = ({ darkMode }: SyraviewsProps) => {
   return (
     <>
       <Card
-        className={`w-full sm:w-[475px] 2xl:w-[525px] h-[529px] ${
+        className={`w-full sm:w-[475px] 2xl:w-[525px] 2xl:h-[529px] ${
           darkMode ? "bg-neutral-900 text-white" : ""
         }`}
       >
@@ -38,7 +38,7 @@ export const Syraviews = ({ darkMode }: SyraviewsProps) => {
             Deployed via Vercel and Fly.io. Log in with &quot;recruiter&quot;
             and &quot;r3cruiter!&quot;.
           </div>
-          <div className="flex justify-between 2xl:mt-3">
+          <div className="flex justify-between mt-2 2xl:mt-3">
             <div className="flex items-center gap-x-2">
               <Avatar>
                 <a

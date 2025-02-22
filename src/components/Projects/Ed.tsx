@@ -10,7 +10,7 @@ export const Ed = ({ darkMode }: EdProps) => {
   return (
     <>
       <Card
-        className={`w-full sm:w-[475px] 2xl:w-[525px] h-[529px] ${
+        className={`w-full sm:w-[475px] 2xl:w-[525px] 2xl:h-[529px] ${
           darkMode ? "bg-neutral-900 text-white" : ""
         }`}
       >
@@ -39,7 +39,7 @@ export const Ed = ({ darkMode }: EdProps) => {
             JWT authentication, an API to exchange data for a lesson
             planning/teaching/analytics app. Deployed via Koyeb.
           </div>
-          <div className="flex justify-center 2xl:mt-4">
+          <div className="flex justify-center mt-2 2xl:mt-4">
             <Avatar>
               <a href="https://github.com/jamesdavidyu/ed-api" target="_blank">
                 <AvatarImage
