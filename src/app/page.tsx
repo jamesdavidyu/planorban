@@ -375,6 +375,7 @@ export default function Home() {
             <p
               className="text-3xl hover:cursor-pointer"
               onClick={() => setBio(!bio)}
+              title="Resume and cover letter"
             >
               &nbsp;&#128209;
             </p>

@@ -1,3 +1,4 @@
+import { BabyShower } from "./Projects/BabyShower";
 import { Ed } from "./Projects/Ed";
 import { Syraqs } from "./Projects/Syraqs";
 import { Syraviews } from "./Projects/Syraviews";
@@ -18,6 +19,9 @@ export const Projects = ({ darkMode }: ProjectsProps) => {
         <Yyj darkMode={darkMode} />
         <Syraqs darkMode={darkMode} />
         {/* TODO: need to add my VBA program and Tableau data analytics, comecny */}
+      </div>
+      <div className="flex flex-col items-center 2xl:flex-row gap-x-4 space-y-4 2xl:space-y-0">
+        <BabyShower darkMode={darkMode} />
       </div>
       {/* <div className="flex flex-col items-center 2xl:flex-row gap-x-4 space-y-4 2xl:space-y-0">
         <InProgress darkMode={darkMode} />
