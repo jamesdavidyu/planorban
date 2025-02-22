@@ -27,7 +27,7 @@ export const Yyj = ({ darkMode }: YyjProps) => {
         </a>
         <div className="flex flex-col p-4">
           <a href="https://youyoungjune.com" target="_blank">
-            <Button>youyoungjune.com</Button>
+            <Button className="w-full">youyoungjune.com</Button>
           </a>
           <div className="mt-3">
             <p className="italic text-green-600">

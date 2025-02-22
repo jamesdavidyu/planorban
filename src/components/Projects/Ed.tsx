@@ -27,7 +27,7 @@ export const Ed = ({ darkMode }: EdProps) => {
         </a>
         <div className="flex flex-col p-4">
           <a href="https://ed-api.koyeb.app/" target="_blank">
-            <Button>ed-api.koyeb.app</Button>
+            <Button className="w-full">ed-api.koyeb.app</Button>
           </a>
           <div className="mt-3">
             <p className="italic text-green-600">

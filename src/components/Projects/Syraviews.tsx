@@ -27,7 +27,7 @@ export const Syraviews = ({ darkMode }: SyraviewsProps) => {
         </a>
         <div className="flex flex-col p-4">
           <a href="https://syraviews.com" target="_blank">
-            <Button>syraviews.com</Button>
+            <Button className="w-full">syraviews.com</Button>
           </a>
           <div className="mt-3">
             A small app to invite friends and collect RSVPs for my soon-to-be

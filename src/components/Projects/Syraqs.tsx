@@ -27,7 +27,7 @@ export const Syraqs = ({ darkMode }: SyraqsProps) => {
         </a>
         <div className="flex flex-col p-4">
           <a href="https://syraqs.com" target="_blank">
-            <Button>syraqs.com</Button>
+            <Button className="w-full">syraqs.com</Button>
           </a>
           <div className="mt-3">
             <p className="italic text-green-600">
