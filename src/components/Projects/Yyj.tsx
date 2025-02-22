@@ -52,15 +52,12 @@ export const Yyj = ({ darkMode }: YyjProps) => {
               </a>
             </div>
             <div className="flex items-center gap-x-2">
-              <a
-                href="https://github.com/jamesdavidyu/yyjApi_java"
-                target="_blank"
-              >
+              <a href="https://github.com/jamesdavidyu/yyj-api" target="_blank">
                 <Button variant="secondary">Backend Repo</Button>
               </a>
               <Avatar>
                 <a
-                  href="https://github.com/jamesdavidyu/yyjApi_java"
+                  href="https://github.com/jamesdavidyu/yyj-api"
                   target="_blank"
                 >
                   <AvatarImage
