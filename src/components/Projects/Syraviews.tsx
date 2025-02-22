@@ -35,7 +35,8 @@ export const Syraviews = ({ darkMode }: SyraviewsProps) => {
             A small app to invite friends and collect RSVPs for my soon-to-be
             son&apos;s gender reveal party, written in Golang &#40;mux&#41; and
             Typescript &#40;Next.js&#41; with PostgreSQL and JWT authentication.
-            Deployed via Vercel and Fly.io.
+            Deployed via Vercel and Fly.io. Log in with &quot;recruiter&quot;
+            and &quot;r3cruiter!&quot;.
           </div>
           <div className="flex justify-between 2xl:mt-3">
             <div className="flex items-center gap-x-2">

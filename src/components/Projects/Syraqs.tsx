@@ -38,7 +38,8 @@ export const Syraqs = ({ darkMode }: SyraqsProps) => {
             A data entry and dashboarding app for clients, written in Python
             &#40;Django, pandas, duckdb, streamlit&#41; and Typescript
             &#40;Next.js&#41; with PostgreSQL and Google API&apos;s OAuth 2.0
-            authentication. Deployed via Vercel.
+            authentication. Deployed via Vercel. Currently only available for
+            registered clients.
           </div>
           <div className="flex justify-between">
             <div className="flex items-center gap-x-2">
