@@ -26,11 +26,9 @@ export const Yyj = ({ darkMode }: YyjProps) => {
           />
         </a>
         <div className="flex flex-col p-4">
-          <Button>
-            <a href="https://youyoungjune.com" target="_blank">
-              youyoungjune.com
-            </a>
-          </Button>
+          <a href="https://youyoungjune.com" target="_blank">
+            <Button>youyoungjune.com</Button>
+          </a>
           <div className="mt-3">
             <p className="italic text-green-600">
               &#47;&#42;&nbsp;In Progress&nbsp;&#42;&#47;
@@ -49,21 +47,17 @@ export const Yyj = ({ darkMode }: YyjProps) => {
                   />
                 </a>
               </Avatar>
-              <Button variant="destructive">
-                <a href="https://github.com/jamesdavidyu/yyj" target="_blank">
-                  Frontend Repo
-                </a>
-              </Button>
+              <a href="https://github.com/jamesdavidyu/yyj" target="_blank">
+                <Button variant="destructive">Frontend Repo</Button>{" "}
+              </a>
             </div>
             <div className="flex items-center gap-x-2">
-              <Button variant="secondary">
-                <a
-                  href="https://github.com/jamesdavidyu/yyjApi_java"
-                  target="_blank"
-                >
-                  Backend Repo
-                </a>
-              </Button>
+              <a
+                href="https://github.com/jamesdavidyu/yyjApi_java"
+                target="_blank"
+              >
+                <Button variant="secondary">Backend Repo</Button>
+              </a>
               <Avatar>
                 <a
                   href="https://github.com/jamesdavidyu/yyjApi_java"

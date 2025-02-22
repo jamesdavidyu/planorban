@@ -26,11 +26,9 @@ export const Syraqs = ({ darkMode }: SyraqsProps) => {
           />
         </a>
         <div className="flex flex-col p-4">
-          <Button>
-            <a href="https://syraqs.com" target="_blank">
-              syraqs.com
-            </a>
-          </Button>
+          <a href="https://syraqs.com" target="_blank">
+            <Button>syraqs.com</Button>
+          </a>
           <div className="mt-3">
             <p className="italic text-green-600">
               &#47;&#42;&nbsp;In Progress&nbsp;&#42;&#47;
@@ -54,24 +52,17 @@ export const Syraqs = ({ darkMode }: SyraqsProps) => {
                   />
                 </a>
               </Avatar>
-              <Button variant="destructive">
-                <a
-                  href="https://github.com/jamesdavidyu/yrm-data"
-                  target="_blank"
-                >
-                  Frontend Repo
-                </a>
-              </Button>
+              <a
+                href="https://github.com/jamesdavidyu/yrm-data"
+                target="_blank"
+              >
+                <Button variant="destructive">Frontend Repo</Button>
+              </a>
             </div>
             <div className="flex items-center gap-x-2">
-              <Button variant="secondary">
-                <a
-                  href="https://github.com/jamesdavidyu/yrm_api"
-                  target="_blank"
-                >
-                  Backend Repo
-                </a>
-              </Button>
+              <a href="https://github.com/jamesdavidyu/yrm_api" target="_blank">
+                <Button variant="secondary">Backend Repo</Button>
+              </a>
               <Avatar>
                 <a
                   href="https://github.com/jamesdavidyu/yrm_api"

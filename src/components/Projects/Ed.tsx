@@ -26,11 +26,9 @@ export const Ed = ({ darkMode }: EdProps) => {
           />
         </a>
         <div className="flex flex-col p-4">
-          <Button>
-            <a href="https://ed-api.koyeb.app/" target="_blank">
-              ed-api.koyeb.app
-            </a>
-          </Button>
+          <a href="https://ed-api.koyeb.app/" target="_blank">
+            <Button>ed-api.koyeb.app</Button>
+          </a>
           <div className="mt-3">
             <p className="italic text-green-600">
               &#47;&#42;&nbsp;In Progress&nbsp;&#42;&#47;

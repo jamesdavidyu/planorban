@@ -26,11 +26,9 @@ export const Syraviews = ({ darkMode }: SyraviewsProps) => {
           />
         </a>
         <div className="flex flex-col p-4">
-          <Button>
-            <a href="https://syraviews.com" target="_blank">
-              syraviews.com
-            </a>
-          </Button>
+          <a href="https://syraviews.com" target="_blank">
+            <Button>syraviews.com</Button>
+          </a>
           <div className="mt-3">
             A small app to invite friends and collect RSVPs for my soon-to-be
             son&apos;s gender reveal party, written in Golang &#40;mux&#41; and
@@ -51,21 +49,17 @@ export const Syraviews = ({ darkMode }: SyraviewsProps) => {
                   />
                 </a>
               </Avatar>
-              <Button variant="destructive">
-                <a
-                  href="https://github.com/jamesdavidyu/gender_reveal_ui"
-                  target="_blank"
-                >
-                  Frontend Repo
-                </a>
-              </Button>
+              <a
+                href="https://github.com/jamesdavidyu/gender_reveal_ui"
+                target="_blank"
+              >
+                <Button variant="destructive">Frontend Repo</Button>
+              </a>
             </div>
             <div className="flex items-center gap-x-2">
-              <Button variant="secondary">
-                <a href="https://github.com/jamesdavidyu/grs" target="_blank">
-                  Backend Repo
-                </a>
-              </Button>
+              <a href="https://github.com/jamesdavidyu/grs" target="_blank">
+                <Button variant="secondary">Backend Repo</Button>
+              </a>
               <Avatar>
                 <a href="https://github.com/jamesdavidyu/grs" target="_blank">
                   <AvatarImage
