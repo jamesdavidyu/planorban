@@ -62,7 +62,7 @@ export const Bio = ({ bio, setBio }: BioProps) => {
             and time-consumingly building dashboards for the same data display,
             and I have become addicted. I realized I want to build tools for
             teachers and students instead of analytic dashboards and when I
-            retire, I will likely spend my day-to-day coding.
+            retire, I will likely spend my day-to-day building apps.
           </p>
           <br />
           <p>
