@@ -42,7 +42,6 @@ export default function Home() {
         <div>
           <a
             href="https://planorban.com"
-            target="_blank"
             className="flex w-fit -mt-1"
             title="Planorban"
           >
