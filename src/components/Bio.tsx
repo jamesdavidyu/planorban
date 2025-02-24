@@ -60,9 +60,9 @@ export const Bio = ({ bio, setBio }: BioProps) => {
             ultimate automation of data reporting, “scheduling” data fetches and
             setting up displays for these data ahead of time instead of manually
             and time-consumingly building dashboards for the same data display,
-            and I have become addicted. I realized I want to build tools for
-            teachers and students instead of analytic dashboards and when I
-            retire, I will likely spend my day-to-day building apps.
+            and I have become addicted. When I retire, I will likely spend my
+            day-to-day building apps. I realized I want to build tools like
+            yours for teachers and students over analytic dashboards.
           </p>
           <br />
           <p>
