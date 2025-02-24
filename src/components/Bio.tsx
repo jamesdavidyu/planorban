@@ -61,10 +61,8 @@ export const Bio = ({ bio, setBio }: BioProps) => {
             setting up displays for these data ahead of time instead of manually
             and time-consumingly building dashboards for the same data display,
             and I have become addicted. When I retire, I will likely spend my
-            day-to-day coding. I have built up my coding skills in these
-            experiences developing tools that can be useful for education
-            stakeholders and would love to continue doing so as a Software
-            Engineer.
+            day-to-day coding. I realized I want to build tools for teachers and
+            students instead of analytic dashboards.
           </p>
           <br />
           <p>
