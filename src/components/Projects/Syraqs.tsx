@@ -34,7 +34,7 @@ export const Syraqs = ({ darkMode }: SyraqsProps) => {
               &#47;&#42;&nbsp;In Progress&nbsp;&#42;&#47;
             </p>
             A data entry and dashboarding app for clients, written in Python
-            &#40;Django, pandas, duckdb, streamlit&#41; and Typescript
+            &#40;Django, pandas, duckdb, streamlit&#41; and TypeScript
             &#40;Next.js&#41; with PostgreSQL and Google API&apos;s OAuth 2.0
             authentication. Deployed via Vercel. Currently only available for
             registered clients.

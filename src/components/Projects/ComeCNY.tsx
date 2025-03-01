@@ -2,11 +2,11 @@ import { Avatar, AvatarImage } from "../ui/avatar";
 import { Button } from "../ui/button";
 import { Card } from "../ui/card";
 
-interface EdProps {
+interface ComeCNYProps {
   darkMode: boolean;
 }
 
-export const Ed = ({ darkMode }: EdProps) => {
+export const ComeCNY = ({ darkMode }: ComeCNYProps) => {
   return (
     <>
       <Card
@@ -15,31 +15,35 @@ export const Ed = ({ darkMode }: EdProps) => {
         }`}
       >
         <a
-          href="https://ed-api.koyeb.app/"
+          href="https://comecny.com/"
           target="_blank"
           className="flex justify-center"
         >
           <img
-            src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiL0Y1JD3wOkGNELiUV9lCbH3TyRq6QuAWfgtZ7"
+            src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiL8vgRtjF19FKXefHshPgWbqRUGduANcQp3otM"
             className="h-72 rounded-t-xl border-b border-neutral-700"
-            alt="ed-api.koyeb.app"
+            alt="comecny.com"
           />
         </a>
         <div className="flex flex-col p-4">
-          <a href="https://ed-api.koyeb.app/" target="_blank">
-            <Button className="w-full">ed-api.koyeb.app</Button>
+          <a href="https://comecny.com/" target="_blank">
+            <Button className="w-full">comecny.com</Button>
           </a>
           <div className="mt-3">
             <p className="italic text-green-600">
               &#47;&#42;&nbsp;In Progress&nbsp;&#42;&#47;
             </p>
-            Written in Java using Spring Boot with PostgreSQL and complete with
-            JWT authentication, an API to exchange data for a lesson
-            planning/teaching/analytics app. Deployed via Koyeb.
+            A parking spot reservation app with JWT authentication, written in
+            JavaScript &#40;jQuery, Bootstrap&#41; and Node.js
+            &#40;TypeScript&#41;. Deployed on Render &#40;if the page shows a
+            502 code, please try again in 50 seconds or so&#41;.
           </div>
-          <div className="flex justify-center mt-2 2xl:mt-6">
+          <div className="flex justify-center mt-2 2xl:mt-0">
             <Avatar>
-              <a href="https://github.com/jamesdavidyu/ed-api" target="_blank">
+              <a
+                href="https://github.com/jamesdavidyu/parking-api"
+                target="_blank"
+              >
                 <AvatarImage
                   src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png"
                   alt="GitHub"

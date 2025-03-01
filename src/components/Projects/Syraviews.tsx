@@ -32,11 +32,11 @@ export const Syraviews = ({ darkMode }: SyraviewsProps) => {
           <div className="mt-3">
             A small app to invite friends and collect RSVPs for my soon-to-be
             son&apos;s gender reveal party, written in Golang &#40;mux&#41; and
-            Typescript &#40;Next.js&#41; with PostgreSQL and JWT authentication.
+            TypeScript &#40;Next.js&#41; with PostgreSQL and JWT authentication.
             Deployed via Vercel and Fly.io. Log in with &quot;recruiter&quot;
             and &quot;r3cruiter!&quot;.
           </div>
-          <div className="flex justify-between mt-2 2xl:mt-3">
+          <div className="flex justify-between mt-2 2xl:mt-4">
             <div className="flex items-center gap-x-2">
               <Avatar>
                 <a

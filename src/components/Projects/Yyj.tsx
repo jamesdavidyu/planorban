@@ -34,10 +34,10 @@ export const Yyj = ({ darkMode }: YyjProps) => {
               &#47;&#42;&nbsp;In Progress&nbsp;&#42;&#47;
             </p>
             My arts portfolio, written in Java &#40;Spring Boot&#41; and
-            Typescript &#40;Next.js&#41; with MongoDB &#40;Atlas&#41; and JWT
+            TypeScript &#40;Next.js&#41; with MongoDB &#40;Atlas&#41; and JWT
             authentication. Deployed via Vercel.
           </div>
-          <div className="flex justify-between mt-2 2xl:mt-7">
+          <div className="flex justify-between mt-2 2xl:mt-4">
             <div className="flex items-center gap-x-2">
               <Avatar>
                 <a href="https://github.com/jamesdavidyu/yyj" target="_blank">

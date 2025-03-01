@@ -42,12 +42,12 @@ export default function Home() {
         <div>
           <a
             href="https://planorban.com"
-            className="flex w-fit -mt-1"
+            className="flex w-fit -mt-2"
             title="Planorban"
           >
             <Avatar>
               <AvatarImage
-                src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLSgxEf8i4ZGeSIWMpQRy6gK7A5vNl0HaJDrVx"
+                src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLyac3HvNfwGCjY5F1plgsOi7kWRbQetrHaMKB"
                 className={`${darkMode ? "invert" : ""}`}
                 alt="Planorban logo"
               />
@@ -141,6 +141,12 @@ export default function Home() {
                     alt="Java"
                   />
                   <img
+                    src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLdv7gQtXg8baGNqhYrtoDdVMz5mujWILy2lf6"
+                    className="size-10"
+                    title="JavaScript"
+                    alt="JavaScript"
+                  />
+                  <img
                     src="https://utfs.io/f/f5d9dfd5-a566-46ae-83f0-8094a153a1a4-g3ezok.png"
                     className="size-10"
                     title="Python"
@@ -155,8 +161,8 @@ export default function Home() {
                   <img
                     src="https://utfs.io/f/0c063887-ad21-4361-83f9-5d22f9c9d653-8myeez.png"
                     className="size-10"
-                    title="Typescript"
-                    alt="Typescript"
+                    title="TypeScript"
+                    alt="TypeScript"
                   />
                 </MenubarContent>
               </MenubarMenu>
@@ -176,16 +182,16 @@ export default function Home() {
                     alt="PostgreSQL"
                   />
                   <img
-                    src="https://m2my1rq4tt.ufs.sh/f/47a62486-9094-4b32-922f-d91d58a7521e-estkac.png"
-                    className="w-20"
-                    title="SQLite"
-                    alt="SQLite"
-                  />
-                  <img
                     src="https://m2my1rq4tt.ufs.sh/f/b2db0c49-4824-43b4-816d-094ab300115e-1pysc4.png"
                     className="size-10"
                     title="MongoDB"
                     alt="MongoDB"
+                  />
+                  <img
+                    src="https://m2my1rq4tt.ufs.sh/f/47a62486-9094-4b32-922f-d91d58a7521e-estkac.png"
+                    className="w-20"
+                    title="SQLite"
+                    alt="SQLite"
                   />
                 </MenubarContent>
               </MenubarMenu>
@@ -200,15 +206,27 @@ export default function Home() {
                 >
                   <img
                     src="https://m2my1rq4tt.ufs.sh/f/c89ce08c-0926-4b1f-bbc7-2e4306bab049-mj0jnj.png"
-                    className="-mr-2 -ml-4 w-12"
+                    className="-mr-2 w-12"
                     title="Spring Boot"
                     alt="Spring Boot"
+                  />
+                  <img
+                    src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLAyeiemabqfmiLrBU6b4JvXS2OgIRYVkt1lQo"
+                    className={`size-10 ${darkMode ? "invert" : ""}`}
+                    title="jQuery"
+                    alt="jQuery"
                   />
                   <img
                     src="https://m2my1rq4tt.ufs.sh/f/6cec46fa-d49f-480f-b875-964225c3792d-20eer.png"
                     className={`size-10 ${darkMode ? "" : "invert"}`}
                     title="Next.js"
                     alt="Next.js"
+                  />
+                  <img
+                    src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLIrLHfHTWkDXc9nLejhCmgd43bJ7l1wfMExPK"
+                    className="size-10"
+                    title="Node.js"
+                    alt="Node.js"
                   />
                   <img
                     src="https://m2my1rq4tt.ufs.sh/f/e3892ea3-6d89-41d2-be4e-2496b69b5802-1sj3pb.png"
@@ -218,7 +236,7 @@ export default function Home() {
                   />
                   <img
                     src="https://m2my1rq4tt.ufs.sh/f/e1c5d774-9034-4d27-bac4-83609a2c0cf7-m0jdt1.png"
-                    className="-ml-2 -mr-3 size-10"
+                    className="-ml-2 -mr-1 size-10"
                     title="Django"
                     alt="Django"
                   />
@@ -254,6 +272,12 @@ export default function Home() {
                   <img
                     src="https://m2my1rq4tt.ufs.sh/f/72df50f8-3c93-4a65-8b7e-11f6c3e09312-26b7.svg"
                     className={`size-10 ${darkMode ? "" : "invert"}`}
+                    title="Fly.io"
+                    alt="Fly.io"
+                  />
+                  <img
+                    src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLMhhQgVkL4N18PZfTHinBgrIRLQCAhK0U7FbX"
+                    className={`size-10 ${darkMode ? "invert" : ""}`}
                     title="Fly.io"
                     alt="Fly.io"
                   />

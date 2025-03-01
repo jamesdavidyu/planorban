@@ -32,10 +32,10 @@ export const BabyShower = ({ darkMode }: BabyShowerProps) => {
           <div className="mt-3">
             Forked from syraviews.com for my wife&apos;s baby shower, I added a
             new table and changed login logic, written in Golang &#40;mux&#41;
-            and Typescript &#40;Next.js&#41; with PostgreSQL and JWT
+            and TypeScript &#40;Next.js&#41; with PostgreSQL and JWT
             authentication. Deployed via Vercel and Fly.io.
           </div>
-          <div className="flex justify-between mt-2 2xl:mt-3">
+          <div className="flex justify-between mt-2 2xl:mt-7">
             <div className="flex items-center gap-x-2">
               <Avatar>
                 <a
