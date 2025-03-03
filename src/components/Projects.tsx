@@ -1,5 +1,5 @@
 import { BabyShower } from "./Projects/BabyShower";
-import { ComeCNY } from "./Projects/ComeCNY";
+import { UNYT } from "./Projects/UNYT";
 import { Ed } from "./Projects/Ed";
 import { Syraqs } from "./Projects/Syraqs";
 import { Syraviews } from "./Projects/Syraviews";
@@ -13,13 +13,13 @@ export const Projects = ({ darkMode }: ProjectsProps) => {
   return (
     <div className="flex flex-col items-center space-y-4">
       <div className="flex flex-col items-center 2xl:flex-row gap-x-4 space-y-4 2xl:space-y-0">
-        <ComeCNY darkMode={darkMode} />
+        <UNYT darkMode={darkMode} />
         <Ed darkMode={darkMode} />
       </div>
       <div className="flex flex-col items-center 2xl:flex-row gap-x-4 space-y-4 2xl:space-y-0">
         <Yyj darkMode={darkMode} />
         <Syraviews darkMode={darkMode} />
-        {/* TODO: need to add my VBA program and Tableau data analytics, comecny */}
+        {/* TODO: need to add my VBA program and Tableau data analytics */}
       </div>
       <div className="flex flex-col items-center 2xl:flex-row gap-x-4 space-y-4 2xl:space-y-0">
         <Syraqs darkMode={darkMode} />

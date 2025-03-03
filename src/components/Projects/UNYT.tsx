@@ -2,11 +2,11 @@ import { Avatar, AvatarImage } from "../ui/avatar";
 import { Button } from "../ui/button";
 import { Card } from "../ui/card";
 
-interface ComeCNYProps {
+interface UNYTProps {
   darkMode: boolean;
 }
 
-export const ComeCNY = ({ darkMode }: ComeCNYProps) => {
+export const UNYT = ({ darkMode }: UNYTProps) => {
   return (
     <>
       <Card
@@ -15,19 +15,19 @@ export const ComeCNY = ({ darkMode }: ComeCNYProps) => {
         }`}
       >
         <a
-          href="https://comecny.com/"
+          href="https://upstatenewyorktransportation.com/"
           target="_blank"
           className="flex justify-center"
         >
           <img
             src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiL8vgRtjF19FKXefHshPgWbqRUGduANcQp3otM"
             className="h-72 rounded-t-xl border-b border-neutral-700"
-            alt="comecny.com"
+            alt="upstatenewyorktransportation.com"
           />
         </a>
         <div className="flex flex-col p-4">
-          <a href="https://comecny.com/" target="_blank">
-            <Button className="w-full">comecny.com</Button>
+          <a href="https://upstatenewyorktransportation.com/" target="_blank">
+            <Button className="w-full">upstatenewyorktransportation.com</Button>
           </a>
           <div className="mt-3">
             <p className="italic text-green-600">
