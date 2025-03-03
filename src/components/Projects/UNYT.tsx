@@ -35,8 +35,8 @@ export const UNYT = ({ darkMode }: UNYTProps) => {
             </p>
             A parking spot reservation app with JWT authentication, written in
             JavaScript &#40;jQuery, Bootstrap&#41; and Node.js
-            &#40;TypeScript&#41;. Deployed on Render &#40;if the page shows a
-            502 code, please try again in 50 seconds or so&#41;.
+            &#40;TypeScript&#41;. Deployed on Render &#40;if the page takes
+            awhile to load, please try again in 50 seconds or so&#41;.
           </div>
           <div className="flex justify-center mt-2 2xl:mt-0">
             <Avatar>
