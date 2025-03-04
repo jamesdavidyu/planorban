@@ -15,37 +15,65 @@ export const Ed = ({ darkMode }: EdProps) => {
         }`}
       >
         <a
-          href="https://ed-api.koyeb.app/"
+          href="https://howlecareer.com/"
           target="_blank"
           className="flex justify-center"
         >
           <img
-            src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiL0Y1JD3wOkGNELiUV9lCbH3TyRq6QuAWfgtZ7"
+            src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLxYvVUzsMCGPjSaxegOIHKo1hBrNWfqYzQ2M0"
             className="h-72 rounded-t-xl border-b border-neutral-700"
-            alt="ed-api.koyeb.app"
+            alt="howlecareer.com"
           />
         </a>
         <div className="flex flex-col p-4">
-          <a href="https://ed-api.koyeb.app/" target="_blank">
-            <Button className="w-full">ed-api.koyeb.app</Button>
+          <a href="https://howlecareer.com/" target="_blank">
+            <Button className="w-full">howlecareer.com</Button>
           </a>
           <div className="mt-3">
             <p className="italic text-green-600">
               &#47;&#42;&nbsp;In Progress&nbsp;&#42;&#47;
             </p>
-            Written in Java using Spring Boot with PostgreSQL and complete with
-            JWT authentication, an API to exchange data for a lesson
-            planning/teaching/analytics app. Deployed via Koyeb.
+            Written in Java &#40;Spring Boot&#41; and TypeScript
+            &#40;Angular&#41; with PostgreSQL and JWT authentication, an app for
+            a lesson planning/teaching/analytics app. Deployed via Vercel and
+            Koyeb.
           </div>
-          <div className="flex justify-center mt-2 2xl:mt-6">
-            <Avatar>
-              <a href="https://github.com/jamesdavidyu/ed-api" target="_blank">
-                <AvatarImage
-                  src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png"
-                  alt="GitHub"
-                />
+          <div className="flex justify-between mt-2 2xl:mt-6">
+            <div className="flex items-center gap-x-2">
+              <Avatar>
+                <a
+                  href="https://github.com/jamesdavidyu/schooltecher"
+                  target="_blank"
+                >
+                  <AvatarImage
+                    src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png"
+                    alt="GitHub"
+                  />
+                </a>
+              </Avatar>
+              <a
+                href="https://github.com/jamesdavidyu/schooltecher"
+                target="_blank"
+              >
+                <Button variant="destructive">Frontend Repo</Button>{" "}
               </a>
-            </Avatar>
+            </div>
+            <div className="flex items-center gap-x-2">
+              <a href="https://github.com/jamesdavidyu/ed-api" target="_blank">
+                <Button variant="secondary">Backend Repo</Button>
+              </a>
+              <Avatar>
+                <a
+                  href="https://github.com/jamesdavidyu/ed-api"
+                  target="_blank"
+                >
+                  <AvatarImage
+                    src="https://m2my1rq4tt.ufs.sh/f/f9154ab4-83d6-4f30-8828-36ef21c11531-klmal9.png"
+                    alt="GitHub"
+                  />
+                </a>
+              </Avatar>
+            </div>
           </div>
         </div>
       </Card>

@@ -147,6 +147,12 @@ export default function Home() {
                     alt="JavaScript"
                   />
                   <img
+                    src="https://utfs.io/f/0c063887-ad21-4361-83f9-5d22f9c9d653-8myeez.png"
+                    className="size-10"
+                    title="TypeScript"
+                    alt="TypeScript"
+                  />
+                  <img
                     src="https://utfs.io/f/f5d9dfd5-a566-46ae-83f0-8094a153a1a4-g3ezok.png"
                     className="size-10"
                     title="Python"
@@ -157,12 +163,6 @@ export default function Home() {
                     className="w-20"
                     title="Golang"
                     alt="Golang"
-                  />
-                  <img
-                    src="https://utfs.io/f/0c063887-ad21-4361-83f9-5d22f9c9d653-8myeez.png"
-                    className="size-10"
-                    title="TypeScript"
-                    alt="TypeScript"
                   />
                 </MenubarContent>
               </MenubarMenu>
@@ -223,10 +223,22 @@ export default function Home() {
                     alt="Next.js"
                   />
                   <img
+                    src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLVM4LpWrIK8G5Tya37sEQN2Pwrfugp1J0FHlD"
+                    className="size-10"
+                    title="Angular"
+                    alt="Angular"
+                  />
+                  <img
                     src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLIrLHfHTWkDXc9nLejhCmgd43bJ7l1wfMExPK"
                     className="size-10"
                     title="Node.js"
                     alt="Node.js"
+                  />
+                  <img
+                    src="https://m2my1rq4tt.ufs.sh/f/AR95GDbqfmiLdg4vKV6Xg8baGNqhYrtoDdVMz5mujWILy2lf"
+                    className={`size-10 ${darkMode ? "invert" : ""}`}
+                    title="Express.js"
+                    alt="Express.js"
                   />
                   <img
                     src="https://m2my1rq4tt.ufs.sh/f/e3892ea3-6d89-41d2-be4e-2496b69b5802-1sj3pb.png"
