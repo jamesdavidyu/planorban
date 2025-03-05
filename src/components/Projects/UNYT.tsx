@@ -33,8 +33,8 @@ export const UNYT = ({ darkMode }: UNYTProps) => {
             <p className="italic text-green-600">
               &#47;&#42;&nbsp;In Progress&nbsp;&#42;&#47;
             </p>
-            A parking spot reservation app with JWT authentication, written in
-            JavaScript &#40;jQuery, Bootstrap&#41; and Node.js
+            A parking spot reservation app with cryptographic authentication,
+            written in JavaScript &#40;jQuery, Bootstrap&#41; and Node.js
             &#40;TypeScript&#41;. Deployed on Render &#40;if the page takes
             awhile to load, please try again in 50 seconds or so&#41;.
           </div>
